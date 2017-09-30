@@ -1,0 +1,62 @@
+#principal{
+    width: 500px;
+    height: 290px;
+    /*background-image: url("../img/arvore.png");
+    background-repeat: no-repeat; no-repeat | repeat | repeat-x | repeat-y
+    background-position: bottom right;  top left | top right 
+    background-color: #e1efbb; */
+    background: url("../img/arvore.png") no-repeat bottom right #16D485;
+    margin: 10px;
+    border: 9px inset #E70000;
+    border-bottom-color: greenyellow;
+    border-bottom-style: double;
+    border-bottom-width: 20px;
+    /* border-radius: 100px; */
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+    box-shadow: 15px 15px 30px 15px #333;
+}
+
+h1{
+    padding-left: 5px;
+    padding-bottom: 5px;
+    margin-bottom: 21px;
+    font-size: 25px;
+    color: #234723;
+    text-align: center;
+    font-family: "Comic Sans MS", Verdana, sans-serif;
+    font-variant: small-caps;
+    word-spacing: 0.5em;
+}
+
+hr{
+    border-style: double;
+    border-color: blue;
+}
+
+p{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 16px;
+    text-align: justify;
+    color: rgb(53, 163, 53);
+    letter-spacing: 0.02em;
+    word-spacing: 0.2em;
+    text-indent: 0.5cm;
+}
+
+ul{
+    padding-left: 50px;
+    list-style-type: none;
+}
+
+ul li{
+    height: 20px;
+    color: rgba(255, 70, 199, 0.9);
+    font-weight: bold;
+}
+
+.destacado{
+    text-decoration: underline;
+    text-transform: uppercase;
+}
